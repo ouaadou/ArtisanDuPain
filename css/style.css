@@ -27,13 +27,11 @@
     background-color: white;
     font-family: 'Parisienne', cursive;
     text-transform: capitalize;
-    border-radius:  29px 29px 29px 0;
 }
 .content h3 {
     color: white;
     background-color: #207ef7;
     padding: 10px 10px;
-    border-radius: 0 29px 29px 29px;
     text-align: left;
 }
 
