@@ -1,0 +1,102 @@
+*:focus {
+    outline: none !important;
+  
+  }
+
+  .navbar-dark .navbar-toggler{
+    border : none !important
+  }
+#hero{
+    height: calc(100vh - 89px) !important;
+    background-color: #f7f7f7;
+    background-image: url("../background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.content{
+    height: 100%;
+    filter: brightness(1);
+}
+.content h1 {
+    display: block;
+    color: black;
+    font-size: 3rem;
+    text-align: center;
+    padding: 10px 0;
+    background-color: white;
+    font-family: 'Parisienne', cursive;
+    text-transform: capitalize;
+    border-radius:  29px 29px 29px 0;
+}
+.content h3 {
+    color: white;
+    background-color: #207ef7;
+    padding: 10px 10px;
+    border-radius: 0 29px 29px 29px;
+    text-align: left;
+}
+
+#about-us , #why-us{
+    background-color: white;
+}
+#products , #contact-us{
+    background-color: #f7f7f7;
+}
+
+/* about us */
+.section-title{
+    text-align: center;
+}
+#about-us img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+#products img {
+    width: 100%;
+    height : auto;
+}
+#products .product{
+    position: relative;
+}
+#products .label{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    background-color: white;
+    padding: 10px 20px;
+    display: none;
+}
+#products .product:hover{
+    cursor: pointer;
+    filter: brightness(.5);
+}
+
+#contact-us .btn{
+    float: right;
+}
+#contact-us input {
+    margin-bottom: 30px;
+}
+footer{
+    margin-top: 50px;
+}
+
+#why-us {
+    text-align: center;
+}
+#why-us .fas {
+
+    font-size: 70px;
+
+}
+footer{
+    color: white;
+}
+footer a{
+    color:tomato;
+}
